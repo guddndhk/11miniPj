@@ -1,5 +1,5 @@
-<%@ page contentType="text/html; charset=EUC-KR" %>
-<%@ page pageEncoding="EUC-KR"%>
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page pageEncoding="utf-8"%>
 
 <!--  ///////////////////////// JSTL  ////////////////////////// -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -9,7 +9,7 @@
 <html lang="ko">
 	
 <head>
-	<meta charset="EUC-KR">
+	<meta charset="utf-8">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -26,7 +26,7 @@
     <!-- Bootstrap Dropdown Hover JS -->
    <script src="/javascript/bootstrap-dropdownhover.min.js"></script>
 	
-	<!--  CSS Ãß°¡ : Åø¹Ù¿¡ È­¸é °¡¸®´Â Çö»ó ÇØ°á :  ÁÖ¼®Ã³¸® Àü, ÈÄ È®ÀÎ-->
+	<!--  CSS ç•°ï¿½åª›ï¿½ : ï¿½ëŒ€ï¿½ï¿½ï¿½ ï¿½ï¿½ï§Žï¿½ åª›ï¿½ç”±Ñ‰ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ë‹¿ê» :  äºŒì‡±ï¿½ï¿½ï§£ï¿½ç”±ï¿½ ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-->
 	<style>
         body {
             padding-top : 70px;
@@ -44,25 +44,29 @@
 	<jsp:include page="/layout/toolbar.jsp" />
    	<!-- ToolBar End /////////////////////////////////////-->
 
-	<!--  ¾Æ·¡ÀÇ ³»¿ëÀº http://getbootstrap.com/getting-started/  ÂüÁ¶ -->	
+	<!--  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ëŒï¿½â‘¹ï¿½ï¿½ http://getbootstrap.com/getting-started/  ï§¡ëª„â€œ -->	
    	<div class="container ">
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Model2MVCShop </h1>
-        <p>J2SE , DBMS ,JDBC , Servlet & JSP, Java Framework , HTML5 , UI Framework ÇÐ½À ÈÄ Mini-Project ÁøÇà</p>
+        <p>å‡†å¤‡ä¸­</p>
      </div>
     </div>
 
-	<!-- ÂüÁ¶ : http://getbootstrap.com/css/   : container part..... -->
+	<!-- ï§¡ëª„â€œ : http://getbootstrap.com/css/   : container part..... -->
 	<div class="container">
-        <h3>³ªÆú·¹¿ËÀº ÀÌ·¸°Ô ¸»Çß´Ù.</h3>
-        <p>"¿À´Ã ³ªÀÇ ºÒÇàÀº ¾ðÁ¨°¡ ³»°¡ Àß¸ø º¸³½ ½Ã°£ÀÇ º¸º¹ÀÌ´Ù."</p>
-  	 	<h3>"... Àåº®Àº Àý½ÇÇÏ°Ô ¿øÇÏÁö ¾Ê´Â »ç¶÷µéÀ» °É·¯³»·Á°í Á¸ÀçÇÕ´Ï´Ù. Àåº®Àº. ´ç½ÅÀÌ ¾Æ´Ï¶ó '´Ù¸¥' »ç¶÷µéÀ» ¸ØÃß°Ô ÇÏ·Á°í °Å±â ÀÖ´Â °ÍÀÌÁö¿ä."</h3>
-         <h3>Çý±¤½º´Ô</h3>
-         <p>Çàº¹ÇÑ »îÀÇ ºñ°áÀº.</p>
-         <p>ÁÁ¾ÆÇÏ´Â ÀÏÀ» ÇÏ´Â °ÍÀÌ ¾Æ¸®¶ó,</p>
-         <p>Áö±Ý ÇÏ´Â ÀÏÀ» ÁÁ¾ÆÇÏ´Â °ÍÀÔ´Ï´Ù.</p>
+        <h3>æ„Ÿæƒ…çš„æ—¶ä»£</h3>
+        <p>æœ¬äººè¿˜æ˜¯ç†æƒ³çš„äººã€‚ã€‚</p>
+  	
   	 </div>
+
+	<div class="container">
+	<div class="Containers:container">
+	<h1>æœ¬äººæ—¥å­æƒ³æ³•</h1>
+  <p>æ—¶é—´å¤ªå¿«äº†æœ¬äºº3æœˆä»½å¼€å§‹å­¦å¾—itçŽ°åœ¨å·²ç»åˆ°6æœˆä»½äº†å°±è¿˜å­¦2ä¸ªæœˆä»¥åŽä»‹ç»å‘¢.</p>
+	<p>ä¸‡ä¸‡æ²¡æƒ³åˆ°æˆ‘å­¦å¾—ITå“ˆå“ˆå°±æ¯ä¸ªäººçš„äººç”Ÿæ˜¯ä¸€ç§é£Žä¸€æ ·å‘¢ä¸æ ‡å‡†ï¼</p>
+	</div>
+</div>
 
 </body>
 

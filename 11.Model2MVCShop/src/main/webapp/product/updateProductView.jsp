@@ -123,7 +123,7 @@ $(function() {
 		<div class="form-group">
 			<label for="uploadFile" class="col-sm-offset-1 col-sm-3 control-label">상품이미지</label>
 			<div class="col-sm-4">
-		      <input type="file" class="form-control" id=""uploadFile"" name="uploadFile" value="${product.uploadFile}" >
+		      <input type="file" class="form-control" id="uploadFile" name="uploadFile" value="${product.fileName}" >
 		    </div>
 			</div>
 	
